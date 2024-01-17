@@ -1,9 +1,23 @@
-# The End of the Track (Work In Progress)
+# The End of the Track - Online (Work In Progress)
 
+Welcome to the online version of "The End of the Track," a strategic game by Gaya Game.
 
-<img src="./images/KnightBall_img.png" alt="Project Logo" width="200"/>
+<img src="./images/KnightBall_img_site Small.png" alt="Project Logo" width="200"/>
+
+## About the Game
+
+"The End of the Track" is a strategic board game that offers exciting gameplay for players of 8+ age. This online version is a work in progress.
 
 Game rules:
+
+
+## Play the Game
+
+You can buy "The End of the Track" online by visiting the Gaya Game website:
+
+[Buy the boardgame here](https://www.gaya-game.com/collections/strategy-game/products/the-end-of-the-track)
+
+Enjoy the game and have fun strategizing your way to victory!
 
 
 
@@ -42,4 +56,4 @@ Game rules:
 
 ## Run the app using Streamlit
 
-    streamlit run knightball_app.py
+    streamlit run app.py
