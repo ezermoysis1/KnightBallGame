@@ -1,6 +1,6 @@
 import numpy as np
 
-class KnightBallGame:
+class TheEndoftheTrackGame:
     def __init__(self):
         self.board = np.zeros((8, 7), dtype=int)
         self.players = {'W': 1, 'B': 2}
@@ -138,5 +138,5 @@ class KnightBallGame:
         return False
 
 if __name__ == "__main__":
-    game = KnightBallGame()
+    game = TheEndoftheTrackGame()
     game.play()
