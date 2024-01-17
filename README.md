@@ -3,6 +3,8 @@
 This game is...
 
 ![Project Logo](./images/KnightBall_img.png)
+<img src="./images/KnightBall_img.png" alt="Project Logo" width="200"/>
+
 
 ## Setup
 
