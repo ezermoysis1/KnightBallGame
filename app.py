@@ -47,7 +47,7 @@ if 'game' not in st.session_state:
 game = st.session_state.game
 
 # Title with a link
-st.title("The End of the Track - Online version")
+st.title("The End of the Track - Online")
 st.markdown("[View the game on Gaya Game](https://www.gaya-game.com/collections/strategy-game/products/the-end-of-the-track)")
 
 
