@@ -1,6 +1,6 @@
 # The End of the Track - Online (Work In Progress)
 
-Welcome to the online version of "The End of the Track," a strategic game by Gaya Game.
+Welcome to the online version of "The End of the Track," a strategic game by Gaya Games - THE ART OF THINKING.
 
 <div style="text-align:center;">
   <img src="./images/KnightBall_img_site Large.png" alt="Project Logo" width="500"/>
@@ -10,7 +10,13 @@ Welcome to the online version of "The End of the Track," a strategic game by Gay
 
 "The End of the Track" is a strategic board game that offers exciting gameplay for players of 8+ age. This online version is a work in progress.
 
-Game rules:
+### Game rules
+
+- Each Player plays with 5 wooden cube and a ball.
+
+- The cubes move Knights in the game of Chess; and the ball can move like a queen in the game of chess.
+
+- The object of the game is to be the first player to have reached the opposite end of the board with a wooden cube and the ball.
 
 
 ## Play the Game
@@ -20,8 +26,6 @@ You can buy "The End of the Track" online by visiting the Gaya Game website:
 [Buy the boardgame here](https://www.gaya-game.com/collections/strategy-game/products/the-end-of-the-track)
 
 Enjoy the game and have fun strategizing your way to victory!
-
-
 
 ## Setup
 
