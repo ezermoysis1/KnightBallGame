@@ -2,7 +2,9 @@
 
 Welcome to the online version of "The End of the Track," a strategic game by Gaya Game.
 
-<img src="./images/KnightBall_img_site Large.png" alt="Project Logo" width="500"/>
+<div style="text-align:center;">
+  <img src="./images/KnightBall_img_site Large.png" alt="Project Logo" width="500"/>
+</div>
 
 ## About the Game
 
