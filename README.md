@@ -1,6 +1,6 @@
 # The End of the Track - Online (Work In Progress)
 
-Welcome to the online version of "The End of the Track," a strategic game by Gaya Games - THE ART OF THINKING.
+This is an online version of "The End of the Track", a strategic game created by GAYA GAME - THE ART OF THINKING. This online version of the game has been created as an effort by myself, to learn how to develop games and I am not at all related to GAYA GAME.
 
 <div style="text-align:center;">
   <img src="./images/KnightBall_img_site Large.png" alt="Project Logo" width="500"/>
