@@ -2,6 +2,8 @@
 
 This game is...
 
+![Project Logo](./images/KnightBall_img.png)
+
 ## Setup
 
 ### Setting up a virtual environment 
