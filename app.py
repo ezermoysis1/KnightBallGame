@@ -1,5 +1,5 @@
 import streamlit as st
-from KnightBallGame import KnightBallGame
+from TheEndoftheTrackGame import TheEndoftheTrackGame
 
 # Function to display the board
 def display_board(game):
@@ -42,7 +42,7 @@ def display_board(game):
 
 # Initialize game
 if 'game' not in st.session_state:
-    st.session_state.game = KnightBallGame()
+    st.session_state.game = TheEndoftheTrackGame()
 
 game = st.session_state.game
 
@@ -80,4 +80,4 @@ if st.button('Make Move'):
         winner = 'Black' if game.player_turn == 'W' else 'White'
         
         st.markdown(f"**{winner} wins!**")
-        st.session_state.game = KnightBallGame()  # Reset the game
+        st.session_state.game = TheEndoftheTrackGame()  # Reset the game
