@@ -39,10 +39,18 @@ class TheEndoftheTrackGame:
 
     def is_valid_pawn_move(self, start, end):
         # Check if the move is within the board and follows the knight's move pattern
-        return 0 <= start[0] < 8 and 0 <= start[1] < 7 and 0 <= end[0] < 8 and 0 <= end[1] < 7 and (
-                abs(start[0] - end[0]) == 2 and abs(start[1] - end[1]) == 1 or
-                abs(start[0] - end[0]) == 1 and abs(start[1] - end[1]) == 2
-        )
+        if not (0 <= start[0] < 8 and 0 <= start[1] < 7 and 0 <= end[0] < 8 and 0 <= end[1] < 7):
+            return False
+
+        # Check if there is another pawn (current player's or opponent's) at the destination
+        current_player = self.player_turn
+        destination_pawn = self.board[end[0], end[1]]
+
+        if destination_pawn != 0:
+            return False
+
+        return (abs(start[0] - end[0]) == 2 and abs(start[1] - end[1]) == 1) or \
+            (abs(start[0] - end[0]) == 1 and abs(start[1] - end[1]) == 2)
 
     def is_valid_ball_move(self, start, end):
         # Check if the move is within the board
