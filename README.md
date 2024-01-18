@@ -14,6 +14,10 @@ You can buy "The End of the Track" board game online by visiting the [Gaya Game]
 
 Enjoy the game and have fun strategizing your way to victory!
 
+<div style="text-align:center;">
+  <img src=".images/game_image.png" alt="Project Logo" width="500"/>
+</div>
+
 
 ### Rules of the Game
 
