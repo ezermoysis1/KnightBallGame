@@ -21,12 +21,9 @@ Enjoy the game and have fun strategizing your way to victory!
 
 ### Rules of the Game
 
-- Each Player plays with 5 wooden cube and a ball.
-
-- The cubes move Knights in the game of Chess; and the ball can move like a queen in the game of chess.
-
-- The object of the game is to be the first player to have reached the opposite end of the board with a wooden cube and the ball.
-
+<div style="text-align:center;">
+  <img src="./images/Instructions.pdf" alt="Project Logo" width="500"/>
+</div>
 ## Setup
 
 ### Setting up a virtual environment 
