@@ -24,6 +24,7 @@ Enjoy the game and have fun strategizing your way to victory!
 <div style="text-align:center;">
   <img src="./images/Instructions.pdf" alt="Project Logo" width="500"/>
 </div>
+
 ## Setup
 
 ### Setting up a virtual environment 
