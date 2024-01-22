@@ -22,7 +22,7 @@ Enjoy the game and have fun strategizing your way to victory!
 ### Rules of the Game
 
 <div style="text-align:center;">
-  <img src="./images/Instructions.pdf" alt="Project Logo" width="500"/>
+  <img src="./images/game_nstructions.png" alt="Project Logo" width="500"/>
 </div>
 
 ## Setup
