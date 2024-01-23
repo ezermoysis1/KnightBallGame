@@ -2,6 +2,14 @@
 
 This is an online version of "The End of the Track", a strategic game created by GAYA GAME - THE ART OF THINKING. This online version of the game has been created as an effort by myself, to learn how to develop games. I am not related to GAYA GAME - THE ART OF THINKING in any way, other than really liking their games.
 
+<div style="text-align:center;">
+  <h1>
+    Play the game 
+    <a href="https://the-end-of-the-track.onrender.com" target="_blank">here</a>
+  </h1>
+  <img src="./images/KnightBall_img_site Large.png" alt="Project Logo" width="500"/>
+</div>
+
 You can buy "The End of the Track" board game online by visiting the [Gaya Game](https://www.gaya-game.com/collections/strategy-game/products/the-end-of-the-track) website.
 
 <div style="text-align:center;">
