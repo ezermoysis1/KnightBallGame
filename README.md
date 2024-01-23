@@ -12,9 +12,6 @@ This is an online version of "The End of the Track", a strategic game created by
 
 You can buy "The End of the Track" board game online by visiting the [Gaya Game](https://www.gaya-game.com/collections/strategy-game/products/the-end-of-the-track) website.
 
-<div style="text-align:center;">
-  <img src="./images/KnightBall_img_site Large.png" alt="Project Logo" width="500"/>
-</div>
 
 ## About the Game
 
