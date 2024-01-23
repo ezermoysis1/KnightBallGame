@@ -95,24 +95,22 @@ class TheEndoftheTrackGame:
         return visited
 
     def make_move(self, start, end):
-        # Perform the move if it's valid
+        is_valid = False
         if self.is_valid_pawn_move(start, end) and self.board[start] == self.players[self.player_turn]:
             self.board[end] = self.board[start]
             self.board[start] = 0
-            self.switch_turn()
+            is_valid = True
         elif self.is_valid_ball_move(start, end) and self.board[start] == self.ball_pawn_combo[self.player_turn]:
             self.board[end] = self.ball_pawn_combo[self.player_turn]
-
-            # Leave only the pawn in the position where the ball left
-
             if self.player_turn == 'W':
                 self.board[start] = 1
             elif self.player_turn == 'B':
                 self.board[start] = 2
-                        
+            is_valid = True
+
+        if is_valid:
             self.switch_turn()
-        else:
-            print('This move is not valid')
+        return is_valid
 
     def switch_turn(self):
         # Switch the turn between players
