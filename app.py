@@ -93,18 +93,42 @@ def display_interactive_board(game, board_id):
 
     return st.session_state.game_over
 
+
+
 # Initialize game
 if 'game' not in st.session_state:
     st.session_state.game = TheEndoftheTrackGame()
     st.session_state.board_id = 0
     st.session_state.game_started = False  # Add a flag to track if the game has started
+    st.session_state.instructions_visible = False
 
 game = st.session_state.game
 
 st.title("The End of the Track - Online")
 st.markdown("[View the game on Gaya Game](https://www.gaya-game.com/collections/strategy-game/products/the-end-of-the-track)")
 
+# Initialize close_instructions
+close_instructions = False
+
+# Initialize show_instructions
+show_instructions = False
+
+# Add a button to show/hide instructions
+if not st.session_state.instructions_visible:
+    show_instructions = st.button("Show Instructions")
+else:
+    close_instructions = st.button("Show Instructions")
+
+if show_instructions:
+    st.image("images/game_instructions.png", caption="Instructions", use_column_width=True)
+    st.session_state.instructions_visible = True
+
+if close_instructions:
+    st.session_state.instructions_visible = False
+
+
 game_over = display_interactive_board(game, st.session_state.board_id)
+
 
 if not game_over and st.session_state.game_started:
     st.markdown(f"**{'White' if game.player_turn == 'W' else 'Black'}'s turn:**")
